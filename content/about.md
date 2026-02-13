@@ -1,26 +1,20 @@
 ---
 title: "About"
 layout: "single"
-summary: "About Celeborn Research"
+url: "/about/"
+summary: "About this research"
 ---
 
-## What This Is
+# About Celeborn Research
 
-Celeborn Research publishes independent credit analysis focused on digital infrastructure — data centers, power generation, GPU financing, and the physical layer of the AI buildout.
+This is a private research repository maintained for internal use by an institutional credit investment office.
 
-We focus on where capital meets constraint: power delivery bottlenecks, equipment supply chains, stranded assets, and the lending gaps that traditional banks won't touch.
+**Focus:** Opportunistic credit in digital infrastructure — data centers, power generation, and GPU-backed lending.
 
-## Perspective
+**Approach:** Credit investor mindset. Skeptical of consensus narratives. Every claim backed by specific data points. Physical reality over financial abstraction.
 
-This isn't sell-side coverage. We don't have a book to talk up or a deal to market. The analysis here is written from a credit perspective — meaning we care about collateral value, downside protection, and where the market is mispricing risk.
+**Contact:** celeborn.research@gmail.com
 
-We're particularly interested in:
+---
 
-- **Behind-the-meter power generation** — the shift to self-powered data center campuses
-- **Distributed inference infrastructure** — the next wave after centralized training clusters
-- **Stranded asset situations** — what happens when capital equipment arrives but power doesn't
-- **Credit market dynamics** — who's lending, who's not, and where the gaps create opportunity
-
-## Contact
-
-[celeborn.research@gmail.com](mailto:celeborn.research@gmail.com)
+*This site is access-controlled. If you're seeing this, you've been granted access.*

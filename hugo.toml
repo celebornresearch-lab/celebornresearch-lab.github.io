@@ -4,30 +4,41 @@ title = 'Celeborn Research'
 theme = 'PaperMod'
 
 [params]
-  description = 'Credit analysis for digital infrastructure'
+  description = 'AI Infrastructure Credit Dislocation — Investment Thesis'
   author = 'Celeborn'
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = false
-  defaultTheme = 'auto'
+  defaultTheme = 'dark'
   hideFooter = false
+  ShowToc = true
+  TocOpen = true
 
   [params.homeInfoParams]
     Title = "Celeborn Research 🌿"
-    Content = "Independent credit analysis for digital infrastructure — power, compute, and the capital gaps in between."
+    Content = "AI Infrastructure Credit Dislocation — an institutional credit thesis on physical asset opportunities emerging from the AI buildout."
 
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:celeborn.research@gmail.com"
+  [params.cover]
+    hidden = false
 
 [menu]
   [[menu.main]]
-    identifier = "research"
-    name = "Research"
-    url = "/research/"
+    identifier = "thesis"
+    name = "Master Thesis"
+    url = "/thesis/"
+    weight = 5
+  [[menu.main]]
+    identifier = "modules"
+    name = "Research Modules"
+    url = "/modules/"
     weight = 10
+  [[menu.main]]
+    identifier = "data"
+    name = "Data & Tables"
+    url = "/data/"
+    weight = 15
   [[menu.main]]
     identifier = "about"
     name = "About"
@@ -41,3 +52,6 @@ theme = 'PaperMod'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
